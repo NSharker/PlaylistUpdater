@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1442468841 source:c:\users\nishad\desktop\playlistupdater\playlistupdater.cpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<dirent.h>
+	<cstdlib>
+	<Windows.h>
+	<WinBase.h>
+	<curl/curl.h>
+
+1419798966 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1420730298 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\curlver.h
+
+1420730298 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1415130676 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\curlrules.h
+
+1402534350 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\easy.h
+
+1415130676 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\multi.h
+	"curl.h"
+
+1415130676 c:\users\nishad\desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\include\curl\typecheck-gcc.h
+

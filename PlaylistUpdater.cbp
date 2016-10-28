@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PlaylistUpdater" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PlaylistUpdater" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Nishad/Desktop/curl-7.40.0-devel-mingw32/curl-7.40.0-devel-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Users\Nishad\Desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\lib\libcurl.a" />
+					<Add library="C:\Users\Nishad\Desktop\curl-7.40.0-devel-mingw32\curl-7.40.0-devel-mingw32\lib\libcurldll.a" />
+					<Add directory="C:/Users/Nishad/Desktop/curl-7.40.0-devel-mingw32/curl-7.40.0-devel-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PlaylistUpdater" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="playlistupdater.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
